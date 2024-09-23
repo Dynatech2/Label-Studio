@@ -5,7 +5,7 @@
 python3 -m venv env
 
 # Activate the Virtual Environment
-.\env\Scripts\Active
+.\env\Scripts\Activate
 
 # Install label studio
 python -m pip install label-studio
