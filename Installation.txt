@@ -1,0 +1,14 @@
+
+# Write it in terminal
+
+# Create a virtual environment
+python3 -m venv env
+
+# Activate the Virtual Environment
+.\env\Scripts\Active
+
+# Install label studio
+python -m pip install label-studio
+
+#Launch label studio
+label-studio
