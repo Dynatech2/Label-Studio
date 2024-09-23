@@ -62,4 +62,26 @@ Label Studio is a versatile open-source data labeling tool that allows you to an
 
 ## Annotating Data
 
+1. **Create a new project**:
+   - Click **Create Project** in the top-right corner.
+   - Enter a **Project Name** (required) and an optional description.
+   - Click **Save** to create the project.
+2. **Import Data**:
+   - Upload local files directly or configure cloud storage for larger datasets.
+   - You can import data immediately or later from the **Data Import** tab.
+3. **Set Up Labeling Interface**:
+   - Choose a template for annotation. For object detection, use the **Bounding Boxes** template.
+   - Add label names for the objects you’ll be annotating (e.g., "Class1", "Class2").
+   - Click **Save** once you're done.
+
+**Labeling Guide**
+
+Now that your project is set up, you can start annotating your data:
+1. Open your project in Label Studio.
+2. Click **Label All Tasks** to start labeling the data.
+3. Use your mouse or keyboard shortcuts to draw bounding boxes and assign labels.
+4. Submit each annotation as you complete it.
+5. You can collaborate with other annotators to improve data quality.
+
+
 
