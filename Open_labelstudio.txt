@@ -1,9 +1,0 @@
-
-# Open label studio
-
-# Active the virtual environment again
-.\env\scripts\Activate
-
-# Run label studio
-label-studio
-
