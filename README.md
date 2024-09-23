@@ -5,7 +5,7 @@ Label Studio is a versatile open-source data labeling tool that allows you to an
 ## Table of Contents
 - [Installation](#installation)
 - [Launching Label Studio](#launching-label-studio)
-- [Multiple Users](#multiple-users-to-acess-label-studio)
+- [Multiple Users to Access Label Studio](#multiple-users-to-access-label-studio)
 - [Annotating Data](#annotating-data)
 - [Exporting Annotations for YOLOv8](#exporting-annotations-for-yolov8)
 - [Useful Links](#useful-links)
@@ -60,7 +60,7 @@ Label Studio is a versatile open-source data labeling tool that allows you to an
 5. **Create an account** or log in to Label Studio to access your project dashboard.
 
 ----
-## Multiple Users
+## Multiple Users to Access Label Studio
 
 To allow multiple users to access Label Studio on the same network, follow these steps:
 
@@ -143,6 +143,31 @@ Now that your project is set up, you can start annotating your data:
 3. Use your mouse or keyboard shortcuts to draw bounding boxes and assign labels.
 4. Submit each annotation as you complete it.
 5. You can collaborate with other annotators to improve data quality.
+
+----
+
+## Exporting Annotations for YOLOv8
+
+Once you've annotated the images, follow these steps to export your data for YOLOv8 training:
+
+1. **Export Annotations**:
+   - Go to your project dashboard and click on **Export**.
+   - Select the **YOLO** format for export.
+
+2. **Download Annotations**:
+   - Download the images and annotations as **.txt files**, which YOLOv8 expects for training.
+  
+3. **Prepare Data for YOLOv8**:
+   - Ensure each image has a corresponding **.txt file** that contains the class and bounding box coordinates. The structure should match YOLOv8's dataset requirements.
+
+4. **Use the Dataset for YOLOv8 Training**:
+   - Provide the exported dataset path when training the YOLOv8 model by updating the data configuration in your training script.
+  
+----
+
+## Useful Links
+
+- https://labelstud.io/guide/get_started
 
 
 
