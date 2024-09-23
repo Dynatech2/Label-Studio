@@ -167,7 +167,9 @@ Once you've annotated the images, follow these steps to export your data for YOL
 
 ## Useful Links
 
-- https://labelstud.io/guide/get_started
+- [Label Studio Guide]([url](https://labelstud.io/guide/get_started))
+- [Labeling Guide]([url](https://labelstud.io/guide/labeling))
+- [Label Studio Github]([url](https://github.com/HumanSignal/label-studio-ml-backend/blob/master/README.md))
 
 
 
