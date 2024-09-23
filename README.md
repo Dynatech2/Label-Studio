@@ -5,7 +5,7 @@ Label Studio is a versatile open-source data labeling tool that allows you to an
 ## Table of Contents
 - [Installation](#installation)
 - [Launching Label Studio](#launching-label-studio)
-- [Annotating Data](annotating-data)
+- [Annotating Data](#annotating-data)
 - [Exporting Annotations for YOLOv8](#exporting-annotations-for-yolov8)
 - [Useful Links](#useful-links)
 
