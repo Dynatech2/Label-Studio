@@ -15,14 +15,14 @@ Label Studio is a versatile open-source data labeling tool that allows you to an
 ## Installation
 
 ### Prerequisites
-- Python 3.7 or higher
+- Python 3.8 or higher
 - pip (Python package installer)
 
 ### Step-by-Step Guide
 
 1. **Create a virtual environment**:
    ```
-   python -m venv env
+   python3 -m venv env
    ```
 2. **Activate the Virtual Environment**:
 
@@ -135,6 +135,10 @@ To allow multiple users to access Label Studio on the same network, follow these
    - Choose a template for annotation. For object detection, use the **Bounding Boxes** template.
    - Add label names for the objects you’ll be annotating (e.g., "Class1", "Class2").
    - Click **Save** once you're done.
+     
+  ![image](https://github.com/user-attachments/assets/dc65279c-eee0-4a5f-bd6c-59c805ebbdc6)
+
+   
 
 **Labeling Guide**
 
@@ -188,6 +192,8 @@ Once you've annotated the images, follow these steps to export your data for YOL
 - [Label Studio Guide](https://labelstud.io/guide/get_started)
 - [Labeling Guide](https://labelstud.io/guide/labeling)
 - [Label Studio Github](https://github.com/HumanSignal/label-studio-ml-backend/blob/master/README.md)
+- [How To Label/Annotate Dataset Locally](https://www.youtube.com/watch?v=LsqkawJgh68)
+- [Templates](https://labelstud.io/templates/gallery_cv)
 
 
 
