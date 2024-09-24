@@ -8,7 +8,7 @@ Label Studio is a versatile open-source data labeling tool that allows you to an
 - [Multiple Users to Access Label Studio](#multiple-users-to-access-label-studio)
 - [Annotating Data](#annotating-data)
 - [Exporting Annotations for YOLOv8](#exporting-annotations-for-yolov8)
-- [Useful Links](#useful-links)
+- [References](#references)
 
 ----
 
@@ -114,9 +114,10 @@ To allow multiple users to access Label Studio on the same network, follow these
    ```
 
 5. **Share the Access URL with Users**
+   
    Provide the constructed URL to other users who need to access Label Studio.
 
-6. **User Access**
+7. **User Access**
    - Ensure that all users are connected to the same Wi-Fi network as the host machine.
    - Users can access Label Studio by entering the provided URL in their web browsers.
    
@@ -158,14 +159,31 @@ Once you've annotated the images, follow these steps to export your data for YOL
    - Download the images and annotations as **.txt files**, which YOLOv8 expects for training.
   
 3. **Prepare Data for YOLOv8**:
-   - Ensure each image has a corresponding **.txt file** that contains the class and bounding box coordinates. The structure should match YOLOv8's dataset requirements.
+   - Ensure each image has a corresponding **.txt file** that contains the class and bounding box coordinates. The structure should match YOLOv8's dataset requirements, with a directory layout like this:
+     ```
+     project_directory/
+     
+     │
+     ├── images/
+     │   ├── image1.jpg
+     │   ├── image2.jpg
+     │   ├── ...
+     │
+     ├── labels/
+     │   ├── image1.txt   # Contains annotations (class, bounding box coordinates, etc.)
+     │   ├── image2.txt
+     │   ├── ...
+     │
+     ├── classes.txt      # List of class names, one per line
+     │
+     ├── notes.json       # Metadata or additional info related to the annotations
+     ```
 
-4. **Use the Dataset for YOLOv8 Training**:
+5. **Use the Dataset for YOLOv8 Training**:
    - Provide the exported dataset path when training the YOLOv8 model by updating the data configuration in your training script.
   
 ----
-
-## Useful Links
+## References
 
 - [Label Studio Guide](https://labelstud.io/guide/get_started)
 - [Labeling Guide](https://labelstud.io/guide/labeling)
