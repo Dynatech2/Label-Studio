@@ -22,7 +22,7 @@ Label Studio is a versatile open-source data labeling tool that allows you to an
 
 1. **Create a virtual environment**:
    ```
-   python3 -m venv env
+   python -m venv env
    ```
 2. **Activate the Virtual Environment**:
 
