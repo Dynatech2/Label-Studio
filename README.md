@@ -152,6 +152,9 @@ Now that your project is set up, you can start annotating your data:
 4. Submit each annotation as you complete it.
 5. You can collaborate with other annotators to improve data quality.
 
+![WhatsApp Image 2024-09-30 at 10 46 13_9105314e](https://github.com/user-attachments/assets/fb318b8a-dcce-42a9-876c-ae6aafaca5ab)
+
+
 ----
 
 ## Exporting Annotations for YOLOv8
